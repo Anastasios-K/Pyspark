@@ -157,9 +157,9 @@ final_distrib =  Distribution(df, Number_of_columns)
 model = RandomForestClassifier(random_state=7)
 
 # the hyperparemters for optimisation
-params = {"n_estimators":[1,2,3],
+params = {"n_estimators":[100,200,300],
           "criterion":['gini', 'entropy'],
-          "max_depth":[3, 4, 5, 6, 7],
+          "max_depth":[300, 400, 500, 600, 700],
           "min_samples_leaf": [2,4,6,8,10],
           "bootstrap":[True, False]}
 
