@@ -1,5 +1,3 @@
-Spark_Classification is an ened-to-end classification project in PySpark linked to spam detection.
-
 About the data:
 
 This is the Ling-Spam corpus which contains four subdirectories, corresponding to four versions of the corpus.
